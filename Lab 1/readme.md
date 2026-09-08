@@ -1,9 +1,9 @@
 ## Lab 1 - Pseudo Random Number Generation
-In this [lab](https://seedsecuritylabs.org/Labs_20.04/Files/Crypto_Random_Number/Crypto_Random_Number.pdf), you will find out some interesting facts and do some experiments on crypto programming. You need to complete all the five tasks in this lab and submit a detailed lab report, with screenshots, to describe what you have done and what you have observed with necessary explanation. Please refer to the example report. Please include important code snippets followed by explanation. Simply attaching code without any explanation will receive no credits.
+In this [lab](https://seedsecuritylabs.org/Labs_20.04/Files/Crypto_Random_Number/Crypto_Random_Number.pdf), you will find out some interesting facts and do some experiments on crypto programming. You need to complete all five tasks in this lab and submit a detailed lab report, with screenshots, to describe what you have done and what you have observed with necessary explanation. Please refer to the example report. Please include important code snippets followed by explanation. Simply attaching code without any explanation will receive no credits.
 
 
 ## Lab Enviroment
-The lab is one of the exercises in SEED Labs. It uses a [Virtual Machine](https://seedsecuritylabs.org/labsetup.html) (VM) to simplify the experiment setup. Load the VM image with your VirtualBox or VMware (whichever you prefer). [Here](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md) is the manual to install the VM on your computer.
+The lab is one of the exercises in SEED Labs. It uses a [Virtual Machine](https://seedsecuritylabs.org/labsetup.html) (VM) to simplify the experiment setup. Load the VM image using VirtualBox or VMware (whichever you prefer). [Here](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md) is the manual to install the VM on your computer.
 
 
 ## Environment Setup
@@ -22,7 +22,7 @@ Remember you can always gain access to the computers in the MSSI lab (Malone 316
 
 **Using VMware Fusion Player on Apple Silicon machines (M chips)**: 
 
-***Note for lab 1***: Unfortunately, if you are using VMware Fusion Player, you will need to use a higher kernel version on Ubuntu 22.04, which may affect the way the [random number generator lab](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/Notes/Crypto.md#random-number) works. Therefore, this option does not work for Lab 1. Instead, it is recommended that you use computers in the MSSI lab for Lab 1.
+***Note for Lab 1***: Unfortunately, if you are using VMware Fusion Player, you will need to use a higher kernel version on Ubuntu 22.04, which affects the way the [random number generator lab](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/Notes/Crypto.md#random-number) works. Therefore, this option does not work for Lab 1. Instead, it is recommended that you use computers in the MSSI lab for Lab 1.  You can still follow these setup steps to prepare for future lab assignments.
 
 1. Download and install [VMware Fusion Player](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free).
 2. Download [Ubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/releases/jammy/release/) (No GUI) or [Ubuntu 24.10](https://old-releases.ubuntu.com/releases/oracular/) (Use this if you are not familiar with LTS version) instead. Be sure to select the **64-bit ARM (ARMv8/AArch64)** version.
@@ -40,7 +40,7 @@ The lab description has the step-by-step walkthrough and detailed instruction. H
 * In Task 2, you need to implement an AES-128-CBC program to perform encryption. Python is recommended here since you may use libraries like Crypto, pycrypto or cryptography to simplify the task. However, it is also acceptable to use any other languages. Just remember to attach the code with enough explanation.
 * The plaintext, ciphertext and IV provided in Task 2, together with the key you generate in Task 1, are all hexadecimal codes. Conversion may be applied to handle them in your program.
 * The question at the end of Task 4 is optional.
-* The 256-bit key in the last step is supposed to be a binary string (sequence of 0s and 1s of length 256).
+* The 256-bit key in Task 5 is supposed to be a binary string (sequence of 0s and 1s of length 256).
 * Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve.
 * Please attach your code with adequate explanation for each task in your report to receive full credits. See the example for what it should look like.
 
