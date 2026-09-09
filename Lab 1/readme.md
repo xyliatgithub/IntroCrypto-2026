@@ -50,7 +50,7 @@ Please pay attention to the following when you prepare the report:
 ## Points Breakdown
 This lab has 40 points in total. Task 1 through Task 5 are worth 5, 15, 5, 5, 10 points respectively.
 
-## Submission Details
+## Lab Report Submission
 * You will work in a team.
 * Only one report is accepted from each group. Please list group members in your report explicitly.
 * Please type your solutions. In general NO hand-written report is accepted.
