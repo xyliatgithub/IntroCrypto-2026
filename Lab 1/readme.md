@@ -47,7 +47,7 @@ Please pay attention to the following when you prepare the report:
 * Take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve.
 * Please attach your code with adequate explanation for each task in your report to receive full credits. See the example for what it should look like.
 
-## Points Break Down
+## Points Breakdown
 This lab has 40 points in total. Task 1 through Task 5 are worth 5, 15, 5, 5, 10 points respectively.
 
 ## Submission Details
