@@ -26,10 +26,10 @@ Remember you can always gain access to the computers in the MSSI lab (Malone 316
 
 1. Download and install [VMware Fusion Player](https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html) (free).
 2. Download [Ubuntu 22.04.5 LTS](https://cdimage.ubuntu.com/releases/jammy/release/) (No GUI) or [Ubuntu 24.10](https://old-releases.ubuntu.com/releases/oracular/) (Use this if you are not familiar with LTS version) instead. Be sure to select the **64-bit ARM (ARMv8/AArch64)** version.
-3. Follow the instructions for [Apple Silicon Machines](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md) to create an Ubuntu 22.04 VM on VMware Fusion Player and complete the VM setup. (Remember to correct your local time in VM, otherwise you might get the wrong answers for this lab.)
+3. Follow the instructions for [Apple Silicon Machines](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md) to create an Ubuntu 22.04 VM on VMware Fusion Player and complete the VM setup.
 
 <!-- **Using UTM (not recommended)**:
-* If you are using UTM, You need to create a VM from scratch. Follow this [link](https://mac.getutm.app/gallery/ubuntu-20-04) and download ths iso from [here](https://cdimage.ubuntu.com/releases/20.04/release/). Also, you need to follow the [steps](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-from-scratch.md) of building from scratch in Seed. -->
+* If you are using UTM, You need to create a VM from scratch. Follow this [link](https://mac.getutm.app/gallery/ubuntu-20-04) and download the iso from [here](https://cdimage.ubuntu.com/releases/20.04/release/). Also, you need to follow the [steps](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-from-scratch.md) of building from scratch in Seed. -->
 
 ## Troubleshooting
 * If the `Enable Nested VT-x/AMD-V` checkbox is grayed out in VirtualBox, try running the command `VBoxManage modifyvm "VM_NAME" --nested-hw-virt on` to enable it.
@@ -37,11 +37,14 @@ Remember you can always gain access to the computers in the MSSI lab (Malone 316
 ## Useful Instructions
 The lab description has the step-by-step walkthrough and detailed instruction. Here are some additional hints and notices:
 * The VM image is an archive of vmdk files. VirtualBox users can follow the instruction in the [User Manual](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md) to import those files. For VMware user, please refer to this [video](https://www.youtube.com/watch?v=1g7qkozxh4o&ab_channel=Magazie) for lab setup.
+* Remember to correct your local time in the VM if any lab tasks require timestamps.
 * In Task 2, you need to implement an AES-128-CBC program to perform encryption. Python is recommended here since you may use libraries like Crypto, pycrypto or cryptography to simplify the task. However, it is also acceptable to use any other languages. Just remember to attach the code with enough explanation.
 * The plaintext, ciphertext and IV provided in Task 2, together with the key you generate in Task 1, are all hexadecimal codes. Conversion may be applied to handle them in your program.
 * The question at the end of Task 4 is optional.
 * The 256-bit key in Task 5 is supposed to be a binary string (sequence of 0s and 1s of length 256).
-* Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve.
+
+Please pay attention to the following when you prepare your report: 
+* Take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve.
 * Please attach your code with adequate explanation for each task in your report to receive full credits. See the example for what it should look like.
 
 ## Points Break Down
