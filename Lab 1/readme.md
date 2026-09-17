@@ -7,7 +7,7 @@ The lab is one of the exercises in SEED Labs. It uses a [Virtual Machine](https:
 
 
 ## Environment Setup
-Remember you can always gain access to the computers in the MSSI lab (Malone 316) as a student in this course. You may need to complete certain paperwork as needed.
+Remember you can always gain access to the computers in the MSSI lab (Malone 316) as a student in this course. You may need to complete certain paperwork as needed. Please find more information here: https://wiki.isi.jhu.edu/index.php?title=MSSI_Accounts. 
 
 ### Intel/AMD (x86-64)
 
