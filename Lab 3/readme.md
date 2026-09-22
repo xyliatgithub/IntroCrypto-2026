@@ -3,7 +3,7 @@ In this [lab](https://seedsecuritylabs.org/Labs_16.04/PDF/Crypto_PKI.pdf), you w
 
 ## Environment Setup
 
-- Please reuse the VM/environment from Lab 1. If you already finished Lab 1 setup, you can skip this section. Otherwise, follow: [Lab 1 Environment Setup](https://github.com/xyliatgithub/IntroCrypto-2025/blob/main/Lab%201/readme.md)
+- Please refer to the VM/environment instructions from Lab 1.
 
 ***Note*** Starting from this lab, you can use Mac + VMware Fusion Player. The kernel version issue affecting Lab 1 does not impact this experiment.
 
