@@ -4,7 +4,7 @@ This [lab](https://seedsecuritylabs.org/Labs_20.04/Files/Crypto_Encryption/Crypt
 
 ## Environment Setup
 
-- Please refer to the VM/environment instructions from Lab 1.
+- Please refer to the VM/environment instructions from Lab 1.  (You can reuse the lab environment for all SEED labs.)
 
 ***Note*** Starting from this lab, you can use Mac + VMware Fusion Player. The kernel version issue affecting Lab 1 does not impact this experiment.
 
@@ -16,7 +16,7 @@ This [lab](https://seedsecuritylabs.org/Labs_20.04/Files/Crypto_Encryption/Crypt
 * You can use any **bmp file** you found for Task 3 as long as you can see the differences when it is encrypted using ECB and CBC. Though [lena](https://github.com/Yu-Tsern/EN.650.658/blob/master/lab/lena_color.gif) is the standard testing image, it is not a good choice in this lab due to its complexity. Use some simple image that has large areas of same colors instead, such as [legoshi.bmp](https://raw.githubusercontent.com/xyliatgithub/IntroCrypto2024/main/Lab%202/legoshi.bmp). The header of pictures encrypted by ECB and CBC should be the same.
 * For Task 5, you should consider the decryption processes for ECB, CBC, CFB and OFB.
 * Include screenshots, original pictures, codes, IVs, keys you use in your report.
-* Take screenshots periodically and include it in your report. They not only serve as evidences of completion but also help the grader understand what you're trying to achieve.
+* Take screenshots periodically and include them in your report. They not only serve as evidences of completion but also help the grader understand what you're trying to achieve.
 
 ## Points Breakdown
 This lab has 40 points in total. The five tasks (2, 3, 4, 5, 6.1) are worth 5, 10, 10, 10, 5 points respectively.
